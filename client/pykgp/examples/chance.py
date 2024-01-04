@@ -11,4 +11,6 @@ def random_agent(state):
 
 
 if __name__ == "__main__":
+    os.environ["TOKEN"] = "random"
+    os.environ["NAME"] = "Random"
     kgp.connect(random_agent, host="localhost", token=os.getenv("TOKEN"), name=os.getenv("NAME"), debug=True)

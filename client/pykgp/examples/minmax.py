@@ -91,4 +91,5 @@ def agent(state):
 
 if __name__ == "__main__":
     import os
+    os.environ["TOKEN"] = "minimax16"
     kgp.connect(agent, host="localhost", debug=True, token=os.getenv("TOKEN"), name="Minmax 16")

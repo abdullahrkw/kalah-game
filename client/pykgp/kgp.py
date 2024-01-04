@@ -22,7 +22,7 @@ import os
 import sys
 import socket
 import threading
-import multiprocessing as mp
+import multiprocess as mp
 import copy
 
 try:
